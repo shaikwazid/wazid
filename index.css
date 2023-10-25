@@ -1,0 +1,98 @@
+
+body{
+    background-color: black;
+}
+
+
+
+.whish-block{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.firstletter{
+    color: orange;
+    font-weight: bolder;
+    font-family: cursive;
+    font-size: x-large;
+}
+.secondletter{
+    
+    color: white;
+    font-weight: bolder;
+    font-family: cursive;
+    font-size: x-large;
+    margin-right: 10px;
+}
+#demo{
+    font-weight: bolder;
+    font-family: cursive;
+    font-size: x-large;
+    color: green;
+}
+
+.font{
+    font-family: cursive;
+}
+
+.cssborder{
+    border: 10px solid black;
+    
+}
+
+.frontendbg{
+    background-color: rgb(26, 35, 41);
+}
+
+.backendbg{
+    background-color: coral;
+}
+
+.avatar{
+    border: 1px solid gold;
+    border-radius: 50%;
+    
+   /* filter:drop-shadow(10px 10px 100px aqua); */
+   filter:drop-shadow(10px 10px 50px gold);
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+   
+  }
+
+.fa:hover {
+    width: 60px;
+    color: aqua;
+   
+
+}
+  
+.fa-instagram {
+    
+    color: darkmagenta;
+    
+  }
+
+.fa-linkedin {
+   
+    color: darkmagenta;
+    
+ 
+     
+  }
+
+.fa-facebook{
+    color: darkmagenta;
+   
+}
+
+.light-effect{
+    filter:drop-shadow(10px 10px 100px rgb(4, 245, 225));
+}

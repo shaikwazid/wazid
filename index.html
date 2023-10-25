@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+
+    <!-- Navbar section is started -->
+
+    <div>
+      
+        <nav class="navbar bg-black">
+    <div class="container-fluid justify-content-center">
+    
+    <img class='logo' src="./images/logo1.png" width="50px" height="50px" alt="logo"></img>
+         <h2 class="nav-brand text-decoration-none text-warning title">W a z </h2>
+    </div>
+  
+  </nav>
+  
+      </div>
+
+ <!-- Navbar section is end -->
+
+
+
+ <!-- Profile block is start -->
+
+
+ <div class='mt-3'>
+    <div class="whish-block m-3" >
+       
+       <span class="firstletter"onClick="wishingname()">H</span><span class="secondletter">i</span>
+       <span id="demo">  </span>
+   </div>
+
+   <div class=" card container text-center bg-info bg-opacity-10 border border-info border-start rounded-end">
+     <div class="row">
+       <div class="col p-5">
+        <h1 class="cc-1 mb-4 text-info border-bottom border-warning font">About Me</h1>
+         <h6 class="mb-3 qualification text-white font">BSC Computer Science from University Post Graduate College secunderabad - 2019</h6>
+         <h6 class="mb-5 qualification text-white font">MCA from University Post Graduate College secunderabad - 2022</h6>
+
+          <h3 class='text-danger font'>Shaik wazid</h3>
+          <h5 class='text-white font'> I'am a Web Developer</h5>
+
+      <!-- {/* Front end block start    */} -->
+<button type="button" class="btn btn-outline-warning m-1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+Front-End
+</button>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+ <div class="modal-content frontendbg">
+   <div class="modal-header bg-danger text-warning">
+     <h5 class="modal-title " id="exampleModalLabel">Skills</h5>
+     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+   </div>
+   <div class="modal-body">
+   <h5 class="card-title text-warning">Front - end Languages</h5>
+ <a href="./images/html.jpg" target="_blank"><button type="button" class="btn btn-outline-danger m-3">HTML</button></a>
+ <a href="./images/css.jpg" target="_blank"><button type="button" class="btn btn-outline-info m-3">CSS</button></a>
+ <a href="./images/bootstrap.jpg" target="_blank"><button type="button" class="btn btn-outline-secondary m-3">BOOTSTRAP</button></a>
+ <a href="./images/coreJavascript.jpg" target="_blank" ><button type="button" class="btn btn-outline-warning m-3">COREJAVASCRIPT</button></a>
+ <a href="./images/IJavascript.jpg" target="_blank"><button type="button" class="btn btn-outline-success m-3">INTERMEDIATE JAVASCRIPT</button></a>
+ <a href="./images/node.jpg" target="_blank"><button type="button" class="btn btn-outline-danger m-3">NODE.JS</button></a>
+   </div>
+   <div class="modal-footer">
+     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+  
+   </div>
+ </div>
+</div>
+</div>
+
+<!-- {/* front-end block end */} -->
+
+<!-- {/* Backend-block start */} -->
+
+
+<button type="button" class="btn btn-outline-warning m-1" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+Back-End
+</button>
+
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal-dialog">
+ <div class="modal-content backendbg">
+   <div class="modal-header bg-dark text-info">
+     <h5 class="modal-title" id="staticBackdropLabel">Skills</h5>
+     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+   </div>
+   <div class="modal-body">
+   <h5 class="card-title">Back - end Languages</h5>
+
+<a href="./images/Java.jpg" target="_blank"><button type="button" class="btn btn-outline-dark m-3">JAVA</button></a>
+<a href="./images/sql.jpg" target="_blank"><button type="button" class="btn btn-outline-info m-3">SQL</button></a>
+
+<h5 class="card-title">Other</h5>
+
+<a href="./images/commandline.jpg" target="_blank"><button type="button" class="btn btn-outline-danger m-3">COMMANDLINE</button></a>
+<a href="./images/git.jpg" target="_blank"><button type="button" class="btn btn-outline-success m-3">GIT AND GITHUB</button></a>
+<a href="./images/codef1.jpg" target="_blank"><button type="button" class="btn btn-outline-warning m-3">CODE FOUNDATION SKILL PATH</button></a>
+<a href="./images/Bashscripting.jpg" target="_blank"><button type="button" class="btn btn-outline-dark m-3">BASHSCRIPTING</button></a>
+   </div>
+   <div class="modal-footer">
+     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+     
+   </div>
+ </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- {/* backend-block end */} -->
+
+        
+        <!-- {/* project-block start */} -->
+
+
+        <button class="btn btn-outline-warning m-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Projects</button>
+
+<div class="offcanvas offcanvas-end bg-danger" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+<div class="offcanvas-header bg-success text-dark justify-content-center">
+ <h5 id="offcanvasRightLabel">Projects</h5>
+ <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+ 
+
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+<div class="carousel-indicators">
+ <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+ <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+ <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+ <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 3"></button>
+</div>
+<div class="carousel-inner">
+ <div class="carousel-item active">
+   <h3 class='bg-black text-info p-2'>Calculator</h3>
+   <img src="./images/calculator.png" width="700px" height="400px" class="d-block w-100 cssborder p-2" alt="..."/>
+   <div class="carousel-caption d-none d-md-block">
+     
+     <a href="https://shaikwazid.github.io/ACalculator/" target="_blank"  rel="noreferrer" class="btn btn-info">Visit Website</a>
+     
+   </div>
+ </div>
+ <div class="carousel-item">
+   <h3 class='bg-black text-info p-2'>Excursion</h3>
+   <img src="./images/Excursion.png" width="700px" height="400px" class="d-block w-100 cssborder p-2" alt="..."/>
+   <div class="carousel-caption d-none d-md-block">
+   <a href=" https://shaikwazid.github.io/Excursion.github.io/" target="_blank" class="btn btn-info">Visit Website</a>
+     
+   </div>
+ </div>
+ <div class="carousel-item">
+   <h3 class='bg-black text-info p-2'>Customer</h3>
+   <img src="./images/Customer.png" width="700px" height="400px" class="d-block w-100 cssborder p-2" alt="..."/>
+   <div class="carousel-caption d-none d-md-block">
+     <a href="https://shaikwazid.github.io/AssignmentSurveyForm/" target="_blank"  rel="noreferrer" class="btn btn-info">Visit Website</a>
+     
+   </div>
+ </div>
+ <div class="carousel-item">
+   <h3 class='bg-black text-info p-2'>Dasmatos</h3>
+   <img src="./images/Dasmatos.png" width="700px" height="400px" class="d-block w-100 cssborder p-2" alt="..."/>
+   <div class="carousel-caption d-none d-md-block">
+   <a href=" https://shaikwazid.github.io/Dasmotos.github.io/" target="_blank" class="btn btn-info">Visit Website</a>
+
+   </div>
+ </div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+ <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+ <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+ <span class="carousel-control-next-icon" aria-hidden="true"></span>
+ <span class="visually-hidden">Next</span>
+</button>
+
+</div>
+</div>
+
+
+</div>
+
+        <!-- {/* project-block end */} -->
+
+
+
+      
+
+          
+
+       </div>
+
+
+
+       <div class="col cc-1">
+        
+
+        <div class="mt-5 ms-4 me-5 mb-4">
+          
+          <!-- java full stack certificat start -->
+
+
+
+          <button class="btn btn-outline-info m-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Java Full Stack Developer</button>
+
+          <div class="offcanvas offcanvas-bottom bg-dark" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+            <div class="offcanvas-header bg-danger text-warning">
+              <h5 class="offcanvas-title" id="offcanvasBottomLabel">Junior Java Full Stack Certificate</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body small">
+              <a href="./images/wazidC.pdf" target="_blank"><button type="button" class="btn btn-outline-success">Certificate</button></a>
+            </div>
+          </div>
+
+          
+          <!-- java full stack certificat end -->
+
+          <img class="avatar  mx-auto d-block" src="https://media.licdn.com/dms/image/D5603AQHkgvFJaeZAvQ/profile-displayphoto-shrink_800_800/0/1676403804493?e=1702512000&v=beta&t=3TejAgefK6BuuaHzp_EOwzxL-F-OLrcbVXeRmCdeQGk" alt="shaik wazid" width="200px"  height="200px"/>
+        </div>
+       
+
+       
+        
+      <div class='text-center bg-danger bg-opacity-10 m-4'>
+      <a href="https://www.linkedin.com/in/shaik-wazid-774868265/" target="_blank" rel="noreferrer" class="fa fa-linkedin"> </a>
+        <a href="https://www.instagram.com/simplymannerism/" target="_blank" rel="noreferrer"  class="fa fa-instagram"> </a>
+        <a href="https://www.facebook.com/wazid.real/" target="_blank" rel="noreferrer"  class="fa fa-facebook"> </a>
+      </div>
+       
+       
+       </div>
+     </div>
+   </div>
+ </div>
+
+
+
+
+  <!-- Profile block is end -->
+
+
+
+
+
+
+
+
+   <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
